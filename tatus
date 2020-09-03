@@ -1,0 +1,53 @@
+[33mcommit 623928516d1b9a3089045156c3b2066ab005ea78[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Jessica Mello <jsvmello@gmail.com>
+Date:   Wed Sep 2 21:16:09 2020 -0300
+
+    Includes a semantic initial structure
+
+M	index.html
+
+[33mcommit 6efd0653e0e5339b1efa3b5c7a2e737dd4ce4115[m
+Author: Jessica Mello <jsvmello@gmail.com>
+Date:   Wed Sep 2 21:08:09 2020 -0300
+
+    Includes initial structure
+
+A	.editorconfig
+A	.gitattributes
+A	.gitignore
+A	.htaccess
+A	404.html
+A	LICENSE.txt
+A	browserconfig.xml
+A	css/main.css
+A	css/normalize.css
+A	doc/TOC.md
+A	doc/css.md
+A	doc/extend.md
+A	doc/faq.md
+A	doc/html.md
+A	doc/js.md
+A	doc/misc.md
+A	doc/usage.md
+A	favicon.ico
+A	humans.txt
+A	icon.png
+A	img/.gitignore
+A	index.html
+A	js/main.js
+A	js/plugins.js
+A	js/vendor/modernizr-3.11.2.min.js
+A	package-lock.json
+A	package.json
+A	robots.txt
+A	site.webmanifest
+A	tile-wide.png
+A	tile.png
+
+[33mcommit 5c0e532b78fbc44bdc8cf1501a9f7a3fdabd45a1[m
+Author: Jessica Mello <jsvmello@gmail.com>
+Date:   Wed Sep 2 21:05:26 2020 -0300
+
+    Includes the first project description file
+
+A	README.md
