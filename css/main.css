@@ -32,3 +32,32 @@ body {
   height: 85vh;
   color: #fff;
  }
+
+
+ /*API Map*/
+ #mapAPI {
+  padding: 1vh 1vw;
+}
+
+ #map {
+  height: 50vh;
+  width: 50vw;
+}
+
+
+ /*API Drag and Drop
+#dragDrop {
+
+  padding: 1vh 1vw;
+}
+
+ #div1, #div2 {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}*/
+
+
