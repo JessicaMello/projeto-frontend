@@ -9,14 +9,27 @@ function helloWorld() {
    
 
  // API MAP
- let map;
+function getGeolocation(){
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition (onSucess, onError);
+  }
+  
+  else {
+    console.log('Não suportado');
+  }
+}
 
- function initMap() {
-   map = new google.maps.Map(document.getElementById("map"), {
-     center: { lat: -19.8837428, lng: -43.9341398 },
-     zoom: 8
-   });
- }
+function onSucess(position) {
+  const {latitude, longitude} = position.coords;
+  console.log ('Essa é a minha latitude: ', latitude);
+  console.log ('Essa é a minha logitude: ', longitude);
+
+}
+
+function onError(error){
+  console.log(error);
+}
+
 
 
    /* API Drag and Drop

@@ -31,10 +31,7 @@
 
 <!-- MAP API-->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-<script
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSie2qZapZDbASXPNSWMAn0FlZccpGE-Q&callback=initMap&libraries=&v=weekly"
-  defer
-></script>
+
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -45,30 +42,22 @@
 
 
   <header>
-    <h1>Projeto Front-end Jessica Mello</h1>
+    <h1>Projeto Front-end Jéssica Mello</h1>
     <!-- <nav>Menu de navegação principal</nav> -->
   </header>
 
   <main>
-
-    <!--<div id="dragDrop">
-      <h1>Drag and Drop API</h1>
-      <p>Coloque a caixa no quadrado ao lado</p>
-          <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> 
-            <img id="drag1" src="./assets/box.jpg" draggable="true" ondragstart="drag(event)" width="60" height="60">
-          </div>
-      
-      <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-      </div>-->
     
       <div id="mapAPI">
         <h1>MAP API</h1>
-      <p>Conectado ao Google Maps</p>
-        <div id="map"></div>
+        <button onclick="getGeolocation()">Ache a minha localização</button>
+        <div style="display:none">
+          <a href="#">Clique aqui</a>
+        </div>
+        
       </div>
       
-
-
+   
       <!-- CODIGO DO MODELO  
     <section class="main-feature">
       Seu conteúdo ou feature principal vem aqui
