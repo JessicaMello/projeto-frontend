@@ -29,47 +29,29 @@
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-<!-- MAP API-->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-
+  <!-- MAP API-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+ 
+<!--Bootstrap-->
 
   <header>
-    <h1>Projeto Front-end Jéssica Mello</h1>
-    <!-- <nav>Menu de navegação principal</nav> -->
+    <nav>
+      <h1 class="nav__h1">Projeto Front-end Jéssica Mello</h1>
+    </nav>
   </header>
 
   <main>
-    
-      <div id="mapAPI">
+      <div class="main__map">
+        
         <h1>MAP API</h1>
         <button onclick="getGeolocation()">Ache a minha localização</button>
-        <div style="display:none">
-          <a href="#">Clique aqui</a>
-        </div>
-        
       </div>
-      
-   
-      <!-- CODIGO DO MODELO  
-    <section class="main-feature">
-      Seu conteúdo ou feature principal vem aqui
-    </section>
-    <aside class="secundary-feature">
-      Algum conteúdo ou feature não-principal de apoio
-    </aside>
-      -->
   </main>
   
   <footer>
+    <div class="footer__text">
     Feito por mim Jessica Mello
+    </div>
   </footer>
 
 </body>

@@ -6,7 +6,7 @@ function helloWorld() {
     console.log('Hello World!');
    }
    helloWorld();
-   
+
 
  // API MAP
 function getGeolocation(){
